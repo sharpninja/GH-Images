@@ -2,12 +2,12 @@
     "launch": {
         "configurations": [
             {
-                "name": "PowerShell Launch Script",
+                "name": "Upload-Image",
                 "type": "PowerShell",
                 "request": "launch",
                 "script": "Upload-Image.ps1",
                 "args": [
-                    "C:\\Users\\kingd\\Downloads\\Back in my day... Part 2 (4000 × 1680 px).png"
+                    "\"C:\\Users\\kingd\\Downloads\\Back in my day... Part 2 (4000 × 1680 px).png\""
                 ],
                 "cwd": "${workspaceFolder}"
             }
